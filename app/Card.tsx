@@ -21,7 +21,7 @@ const Card: FC<CardProps> = (props) => {
 
   return (
     <section
-      className={`hover:shadow-xl transition-all cursor-pointer relative shadow-md items-center bg-gradient-to-t from-[#EFDEC9] to-[#B8FCFC] rounded-[60px] text-[#464646] font-bold ${
+      className={`hover:shadow-xl transition-shadow cursor-pointer relative shadow-md items-center bg-gradient-to-t from-[#EFDEC9] to-[#B8FCFC] rounded-[60px] text-[#464646] font-bold ${
         options.size === 'normal'
           ? `text-[28px] w-[490px] aspect-[490/370]`
           : `text-[24px] w-[420px] aspect-[420/220]`

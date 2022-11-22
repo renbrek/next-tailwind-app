@@ -24,7 +24,7 @@ const Navbar: FC = () => {
         <div className="text-[24px] font-semibold bg-[#EFDEC9] w-[620px] rounded-full shadow-md">
           Новости бегущей строкой
         </div>
-        <div className="shadow-md relative bg-[#EFDEC9] w-[75px] aspect-square rounded-full flex items-center justify-center">
+        <div className="cursor-pointer hover:shadow-xl transition-shadow shadow-md relative bg-[#EFDEC9] w-[75px] aspect-square rounded-full flex items-center justify-center">
           <div className="absolute flex w-full h-full bg-[url(/assets/menu.png)] bg-no-repeat bg-center"></div>
         </div>
       </div>
