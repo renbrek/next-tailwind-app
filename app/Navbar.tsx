@@ -7,7 +7,7 @@ const lato = Lato({
 
 const Navbar: FC = () => {
   return (
-    <nav className="flex justify-between z-50 xl:container m-auto items-center">
+    <nav className="flex flex-col lg:flex-row justify-between z-50 xl:container m-auto items-center">
       <div>
         <h1
           className={`${lato.className} text-[#7C2AE8] font-[900] text-[48px]`}
